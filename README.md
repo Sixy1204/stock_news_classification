@@ -52,6 +52,10 @@ class XGopt(object):
         loss = para['loss_func'](self.y_test, pred)
         return {'loss': loss, 'status': STATUS_OK}
 ```
-![GitHub](https://github.com/Sixy1204/stock_news_classification/tree/master/images/hh_search.png "hyperopt")
+![Alt text](https://github.com/Sixy1204/stock_news_classification/tree/master/images/hh_search.png "hyperopt")
 
+- Train and evaluate xgboost 
+![Alt text](https://github.com/Sixy1204/stock_news_classification/tree/master/images/hh_loss.png "hyperopt")
+- confusion matrix
+![Alt text](https://github.com/Sixy1204/stock_news_classification/tree/master/images/hh_con.png "hyperopt")
 
