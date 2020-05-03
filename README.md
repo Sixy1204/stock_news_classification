@@ -1,7 +1,7 @@
 # A classifier for bda_mid_project by skearn  
 Goal: Use a classifier to predict the stock price ups(+1) and downs(-1) during a period of time based on stock news.  
 
-##From decision tree to XGBoost
+## From decision tree to XGBoost
 1. Build decision tree by using default setting in sklearn
 ```python
 tree.DecisionTreeClassifier() 
@@ -52,6 +52,6 @@ class XGopt(object):
         loss = para['loss_func'](self.y_test, pred)
         return {'loss': loss, 'status': STATUS_OK}
 ```
-![GitHub](https://github.com/Sixy1204/stock_news_classification/tree/master/images "hyperopt")
+![GitHub](https://github.com/Sixy1204/stock_news_classification/tree/master/images/hh_search.png "hyperopt")
 
 
