@@ -1,5 +1,8 @@
-xgboost==1.0.2
 pandas==1.0.3
-numpy==1.18.1
+seaborn==0.10.1
+hyperopt==0.2.4
 jieba==0.42.1
+xgboost==1.0.2
+numpy==1.18.1
+matplotlib==3.2.1
 scikit_learn==0.22.2.post1
